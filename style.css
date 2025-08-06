@@ -1,0 +1,89 @@
+/* General Reset and Typography */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fffdf6;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+nav a {
+  color: #f4f4f4;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #cf7500;
+  transition: color 0.3s ease;
+}
+
+/* Section Layout */
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+/* Highlight Class */
+.highlight {
+  color: #cf7500;
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  section {
+    padding: 30px 15px;
+  }
+}
+nav a.active {
+  color: #cf7500;
+  border-bottom: 2px solid #cf7500;
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+}
+nav a.active {
+  color: #cf7500;
+  border-bottom: 2px solid #cf7500;
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+}
+.logo {
+  height: 120px;
+  width: auto;
+  margin-right: 65px;
+  vertical-align: middle;
+}
