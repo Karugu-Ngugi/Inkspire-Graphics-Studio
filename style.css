@@ -84,6 +84,6 @@ nav a.active {
 .logo {
   height: 120px;
   width: auto;
-  margin-right: 65px;
-  vertical-align: middle;
+  margin-right: 100px;
+  vertical-align: MIDDLE;
 }
